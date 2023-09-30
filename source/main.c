@@ -12,7 +12,7 @@ int main(int argc, char **argv) {
     WPAD_Init();
     video_init();
 
-	while (running) {
+    while (running) {
         WPAD_ScanPads();
 
         switch (current_state) {

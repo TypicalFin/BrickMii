@@ -2,5 +2,5 @@
 
 int bannerbrick_execute() {
     // TODO
-    return 0;
+    return -1;
 }

@@ -1,5 +1,5 @@
-#include "brick/bannerbrick.h"
-#include "brick/mailbrick.h"
+#include "bannerbrick.h"
+#include "mailbrick.h"
 
 struct brick {
     int (*execute)();
@@ -11,4 +11,4 @@ struct brick bricks[] = {
         {&mailbrick_execute, "Mailbrick"}
 };
 
-const int brick_count = sizeof(bricks) / sizeof(bricks[0]);
+const int brick_count = sizeof(bricks) / sizeof(struct brick);
