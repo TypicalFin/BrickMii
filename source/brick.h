@@ -7,8 +7,8 @@ struct brick {
 };
 
 struct brick bricks[] = {
-        {&bannerbrick_execute, "Bannerbrick"},
-        {&mailbrick_execute, "Mailbrick"}
+        {&bannerbrick_execute, "Banner brick"},
+        {&mailbrick_execute, "Mail brick"}
 };
 
 const int brick_count = sizeof(bricks) / sizeof(struct brick);
