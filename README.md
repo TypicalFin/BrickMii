@@ -1,5 +1,5 @@
 # BrickMii
-Simple Wii homebrew app that bricks your console.</br>
+A simple Wii homebrew app that bricks your console.</br>
 Code quality is quite poor as I have limited experience in C.</br>
 </br>
 The UI (if you can even call it that) is currently ready.</br>
